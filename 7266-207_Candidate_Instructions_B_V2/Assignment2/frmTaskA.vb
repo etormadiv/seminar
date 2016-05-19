@@ -1,4 +1,6 @@
 ﻿'Author: Mohamed sedig
+Imports System.Runtime.InteropServices
+
 Public Class frmTaskA
     Dim username As String
     Dim strFileName As String
@@ -46,10 +48,13 @@ Public Class frmTaskA
         FileOpen(1, strFileName, OpenMode.Input)
         lstDisplay.Items.Clear()
 
+        AllocConsole()
+
         While Not EOF(1)
             DataRecord = LineInput(1)
             If Not String.IsNullOrWhiteSpace(DataRecord) Then
                 lstDisplay.Items.Add(DataRecord)
+                Console.WriteLine(DataRecord)
             End If
         End While
 
@@ -60,4 +65,8 @@ Public Class frmTaskA
             Close()
         End If
     End Sub
+
+    <DllImport("kernel32.dll")> Public Shared Function AllocConsole() As Boolean
+
+    End Function
 End Class
