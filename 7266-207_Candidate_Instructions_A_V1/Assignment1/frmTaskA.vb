@@ -1,4 +1,5 @@
-﻿'Task A
+﻿'Author: Mohamed sedig
+'Task A
 Public Class frmTaskA
     'Handles the exit button click event
     Private Sub cmdExit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdExit.Click

@@ -143,7 +143,7 @@ Partial Class frmTaskB
         Me.Controls.Add(Me.lblText2)
         Me.Controls.Add(Me.lblText1)
         Me.Name = "frmTaskB"
-        Me.Text = "Task B"
+        Me.Text = "Task B Mohamed sedig 2016-05-19"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

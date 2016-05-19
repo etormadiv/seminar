@@ -1,4 +1,5 @@
-﻿'Task B
+﻿'Mohamed sedig
+'Task B
 Public Class frmTaskB
     'This member handles the forecolor button click event
     Private Sub cmdForeColour_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdForeColour.Click
