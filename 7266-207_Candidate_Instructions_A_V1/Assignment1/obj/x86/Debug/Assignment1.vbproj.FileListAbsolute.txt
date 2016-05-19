@@ -1,0 +1,12 @@
+c:\users\sphere\documents\visual studio 2010\Projects\Assignments\Assignment1\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\sphere\documents\visual studio 2010\Projects\Assignments\Assignment1\obj\x86\Debug\Assignment1.frmTaskA.resources
+c:\users\sphere\documents\visual studio 2010\Projects\Assignments\Assignment1\obj\x86\Debug\Assignment1.Resources.resources
+c:\users\sphere\documents\visual studio 2010\Projects\Assignments\Assignment1\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\sphere\documents\visual studio 2010\Projects\Assignments\Assignment1\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\sphere\documents\visual studio 2010\Projects\Assignments\Assignment1\bin\Debug\Assignment1.exe
+c:\users\sphere\documents\visual studio 2010\Projects\Assignments\Assignment1\bin\Debug\Assignment1.pdb
+c:\users\sphere\documents\visual studio 2010\Projects\Assignments\Assignment1\bin\Debug\Assignment1.xml
+c:\users\sphere\documents\visual studio 2010\Projects\Assignments\Assignment1\obj\x86\Debug\Assignment1.exe
+c:\users\sphere\documents\visual studio 2010\Projects\Assignments\Assignment1\obj\x86\Debug\Assignment1.xml
+c:\users\sphere\documents\visual studio 2010\Projects\Assignments\Assignment1\obj\x86\Debug\Assignment1.pdb
+C:\Users\sphere\documents\visual studio 2010\Projects\Assignments\Assignment1\obj\x86\Debug\Assignment1.frmTaskB.resources
