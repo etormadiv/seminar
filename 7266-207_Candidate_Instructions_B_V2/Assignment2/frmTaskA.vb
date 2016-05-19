@@ -15,9 +15,14 @@ Public Class frmTaskA
         Dim quantity As Byte
         Dim price As Decimal
 
+        Dim Total As Decimal
+
+
         prodName = txtProdName.Text
         quantity = Byte.Parse(txtQuantity.Text)
         price = Decimal.Parse(txtPrice.Text)
+
+        Total = price * quantity
 
         If radAppend.Checked Then
             FileOpen(1, strFileName, OpenMode.Append)
@@ -25,7 +30,7 @@ Public Class frmTaskA
             FileOpen(1, strFileName, OpenMode.Output)
         End If
 
-        PrintLine(1, prodName, quantity, price)
+        PrintLine(1, prodName, quantity, price, Total)
         FileClose(1)
 
         txtPrice.Clear()
@@ -43,7 +48,9 @@ Public Class frmTaskA
 
         While Not EOF(1)
             DataRecord = LineInput(1)
-            lstDisplay.Items.Add(DataRecord)
+            If Not String.IsNullOrWhiteSpace(DataRecord) Then
+                lstDisplay.Items.Add(DataRecord)
+            End If
         End While
 
     End Sub
