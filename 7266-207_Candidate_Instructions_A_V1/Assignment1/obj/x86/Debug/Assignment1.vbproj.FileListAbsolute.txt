@@ -10,3 +10,15 @@ c:\users\sphere\documents\visual studio 2010\Projects\Assignments\Assignment1\ob
 c:\users\sphere\documents\visual studio 2010\Projects\Assignments\Assignment1\obj\x86\Debug\Assignment1.xml
 c:\users\sphere\documents\visual studio 2010\Projects\Assignments\Assignment1\obj\x86\Debug\Assignment1.pdb
 C:\Users\sphere\documents\visual studio 2010\Projects\Assignments\Assignment1\obj\x86\Debug\Assignment1.frmTaskB.resources
+F:\Seminar\7266-207_Candidate_Instructions_A_V1\Assignment1\bin\Debug\Assignment1.exe
+F:\Seminar\7266-207_Candidate_Instructions_A_V1\Assignment1\bin\Debug\Assignment1.pdb
+F:\Seminar\7266-207_Candidate_Instructions_A_V1\Assignment1\bin\Debug\Assignment1.xml
+F:\Seminar\7266-207_Candidate_Instructions_A_V1\Assignment1\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Seminar\7266-207_Candidate_Instructions_A_V1\Assignment1\obj\x86\Debug\Assignment1.frmTaskA.resources
+F:\Seminar\7266-207_Candidate_Instructions_A_V1\Assignment1\obj\x86\Debug\Assignment1.frmTaskB.resources
+F:\Seminar\7266-207_Candidate_Instructions_A_V1\Assignment1\obj\x86\Debug\Assignment1.Resources.resources
+F:\Seminar\7266-207_Candidate_Instructions_A_V1\Assignment1\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Seminar\7266-207_Candidate_Instructions_A_V1\Assignment1\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Seminar\7266-207_Candidate_Instructions_A_V1\Assignment1\obj\x86\Debug\Assignment1.exe
+F:\Seminar\7266-207_Candidate_Instructions_A_V1\Assignment1\obj\x86\Debug\Assignment1.xml
+F:\Seminar\7266-207_Candidate_Instructions_A_V1\Assignment1\obj\x86\Debug\Assignment1.pdb
