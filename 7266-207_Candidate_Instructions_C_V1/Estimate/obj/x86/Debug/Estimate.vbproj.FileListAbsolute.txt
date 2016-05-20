@@ -1,0 +1,11 @@
+F:\Seminar\7266-207_Candidate_Instructions_C_V1\Estimate\bin\Debug\Estimate.exe
+F:\Seminar\7266-207_Candidate_Instructions_C_V1\Estimate\bin\Debug\Estimate.pdb
+F:\Seminar\7266-207_Candidate_Instructions_C_V1\Estimate\bin\Debug\Estimate.xml
+F:\Seminar\7266-207_Candidate_Instructions_C_V1\Estimate\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Seminar\7266-207_Candidate_Instructions_C_V1\Estimate\obj\x86\Debug\Estimate.Resources.resources
+F:\Seminar\7266-207_Candidate_Instructions_C_V1\Estimate\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Seminar\7266-207_Candidate_Instructions_C_V1\Estimate\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Seminar\7266-207_Candidate_Instructions_C_V1\Estimate\obj\x86\Debug\Estimate.exe
+F:\Seminar\7266-207_Candidate_Instructions_C_V1\Estimate\obj\x86\Debug\Estimate.xml
+F:\Seminar\7266-207_Candidate_Instructions_C_V1\Estimate\obj\x86\Debug\Estimate.pdb
+F:\Seminar\7266-207_Candidate_Instructions_C_V1\Estimate\obj\x86\Debug\Estimate.frmEstimate.resources
