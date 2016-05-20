@@ -43,6 +43,15 @@ Partial Class frmEstimate
         Me.txtHeight = New System.Windows.Forms.TextBox()
         Me.lblLengthUnit = New System.Windows.Forms.Label()
         Me.lblHeightUnit = New System.Windows.Forms.Label()
+        Me.lblDepth = New System.Windows.Forms.Label()
+        Me.txtDepth = New System.Windows.Forms.TextBox()
+        Me.lblDepthUnit = New System.Windows.Forms.Label()
+        Me.lblWidth = New System.Windows.Forms.Label()
+        Me.txtWidth = New System.Windows.Forms.TextBox()
+        Me.lblWidthUnit = New System.Windows.Forms.Label()
+        Me.lblArea = New System.Windows.Forms.Label()
+        Me.txtArea = New System.Windows.Forms.TextBox()
+        Me.lblAreaUnit = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -187,6 +196,7 @@ Partial Class frmEstimate
         Me.lblHint.Size = New System.Drawing.Size(240, 23)
         Me.lblHint.TabIndex = 13
         Me.lblHint.Text = "Enter the dimensions below"
+        Me.lblHint.Visible = False
         '
         'PictureBox1
         '
@@ -201,7 +211,7 @@ Partial Class frmEstimate
         'lblLength
         '
         Me.lblLength.AutoSize = True
-        Me.lblLength.Location = New System.Drawing.Point(372, 190)
+        Me.lblLength.Location = New System.Drawing.Point(370, 190)
         Me.lblLength.Name = "lblLength"
         Me.lblLength.Size = New System.Drawing.Size(43, 13)
         Me.lblLength.TabIndex = 15
@@ -219,7 +229,7 @@ Partial Class frmEstimate
         'lblHeight
         '
         Me.lblHeight.AutoSize = True
-        Me.lblHeight.Location = New System.Drawing.Point(375, 220)
+        Me.lblHeight.Location = New System.Drawing.Point(372, 220)
         Me.lblHeight.Name = "lblHeight"
         Me.lblHeight.Size = New System.Drawing.Size(41, 13)
         Me.lblHeight.TabIndex = 17
@@ -237,7 +247,7 @@ Partial Class frmEstimate
         'lblLengthUnit
         '
         Me.lblLengthUnit.AutoSize = True
-        Me.lblLengthUnit.Location = New System.Drawing.Point(530, 190)
+        Me.lblLengthUnit.Location = New System.Drawing.Point(532, 190)
         Me.lblLengthUnit.Name = "lblLengthUnit"
         Me.lblLengthUnit.Size = New System.Drawing.Size(26, 13)
         Me.lblLengthUnit.TabIndex = 19
@@ -247,18 +257,110 @@ Partial Class frmEstimate
         'lblHeightUnit
         '
         Me.lblHeightUnit.AutoSize = True
-        Me.lblHeightUnit.Location = New System.Drawing.Point(530, 223)
+        Me.lblHeightUnit.Location = New System.Drawing.Point(532, 223)
         Me.lblHeightUnit.Name = "lblHeightUnit"
         Me.lblHeightUnit.Size = New System.Drawing.Size(26, 13)
         Me.lblHeightUnit.TabIndex = 20
         Me.lblHeightUnit.Text = "mtrs"
         Me.lblHeightUnit.Visible = False
         '
+        'lblDepth
+        '
+        Me.lblDepth.AutoSize = True
+        Me.lblDepth.Location = New System.Drawing.Point(374, 222)
+        Me.lblDepth.Name = "lblDepth"
+        Me.lblDepth.Size = New System.Drawing.Size(39, 13)
+        Me.lblDepth.TabIndex = 21
+        Me.lblDepth.Text = "Depth:"
+        Me.lblDepth.Visible = False
+        '
+        'txtDepth
+        '
+        Me.txtDepth.Location = New System.Drawing.Point(423, 219)
+        Me.txtDepth.Name = "txtDepth"
+        Me.txtDepth.Size = New System.Drawing.Size(100, 20)
+        Me.txtDepth.TabIndex = 22
+        Me.txtDepth.Visible = False
+        '
+        'lblDepthUnit
+        '
+        Me.lblDepthUnit.AutoSize = True
+        Me.lblDepthUnit.Location = New System.Drawing.Point(532, 223)
+        Me.lblDepthUnit.Name = "lblDepthUnit"
+        Me.lblDepthUnit.Size = New System.Drawing.Size(26, 13)
+        Me.lblDepthUnit.TabIndex = 23
+        Me.lblDepthUnit.Text = "mtrs"
+        Me.lblDepthUnit.Visible = False
+        '
+        'lblWidth
+        '
+        Me.lblWidth.AutoSize = True
+        Me.lblWidth.Location = New System.Drawing.Point(375, 250)
+        Me.lblWidth.Name = "lblWidth"
+        Me.lblWidth.Size = New System.Drawing.Size(38, 13)
+        Me.lblWidth.TabIndex = 24
+        Me.lblWidth.Text = "Width:"
+        Me.lblWidth.Visible = False
+        '
+        'txtWidth
+        '
+        Me.txtWidth.Location = New System.Drawing.Point(423, 250)
+        Me.txtWidth.Name = "txtWidth"
+        Me.txtWidth.Size = New System.Drawing.Size(100, 20)
+        Me.txtWidth.TabIndex = 25
+        Me.txtWidth.Visible = False
+        '
+        'lblWidthUnit
+        '
+        Me.lblWidthUnit.AutoSize = True
+        Me.lblWidthUnit.Location = New System.Drawing.Point(532, 256)
+        Me.lblWidthUnit.Name = "lblWidthUnit"
+        Me.lblWidthUnit.Size = New System.Drawing.Size(26, 13)
+        Me.lblWidthUnit.TabIndex = 26
+        Me.lblWidthUnit.Text = "mtrs"
+        Me.lblWidthUnit.Visible = False
+        '
+        'lblArea
+        '
+        Me.lblArea.AutoSize = True
+        Me.lblArea.Location = New System.Drawing.Point(381, 283)
+        Me.lblArea.Name = "lblArea"
+        Me.lblArea.Size = New System.Drawing.Size(32, 13)
+        Me.lblArea.TabIndex = 27
+        Me.lblArea.Text = "Area:"
+        Me.lblArea.Visible = False
+        '
+        'txtArea
+        '
+        Me.txtArea.Location = New System.Drawing.Point(423, 281)
+        Me.txtArea.Name = "txtArea"
+        Me.txtArea.Size = New System.Drawing.Size(100, 20)
+        Me.txtArea.TabIndex = 28
+        Me.txtArea.Visible = False
+        '
+        'lblAreaUnit
+        '
+        Me.lblAreaUnit.AutoSize = True
+        Me.lblAreaUnit.Location = New System.Drawing.Point(532, 286)
+        Me.lblAreaUnit.Name = "lblAreaUnit"
+        Me.lblAreaUnit.Size = New System.Drawing.Size(0, 13)
+        Me.lblAreaUnit.TabIndex = 29
+        Me.lblAreaUnit.Visible = False
+        '
         'frmEstimate
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(999, 593)
+        Me.Controls.Add(Me.lblAreaUnit)
+        Me.Controls.Add(Me.txtArea)
+        Me.Controls.Add(Me.lblArea)
+        Me.Controls.Add(Me.lblWidthUnit)
+        Me.Controls.Add(Me.txtWidth)
+        Me.Controls.Add(Me.lblWidth)
+        Me.Controls.Add(Me.lblDepthUnit)
+        Me.Controls.Add(Me.txtDepth)
+        Me.Controls.Add(Me.lblDepth)
         Me.Controls.Add(Me.lblHeightUnit)
         Me.Controls.Add(Me.lblLengthUnit)
         Me.Controls.Add(Me.txtHeight)
@@ -307,5 +409,14 @@ Partial Class frmEstimate
     Friend WithEvents txtHeight As System.Windows.Forms.TextBox
     Friend WithEvents lblLengthUnit As System.Windows.Forms.Label
     Friend WithEvents lblHeightUnit As System.Windows.Forms.Label
+    Friend WithEvents lblDepth As System.Windows.Forms.Label
+    Friend WithEvents txtDepth As System.Windows.Forms.TextBox
+    Friend WithEvents lblDepthUnit As System.Windows.Forms.Label
+    Friend WithEvents lblWidth As System.Windows.Forms.Label
+    Friend WithEvents txtWidth As System.Windows.Forms.TextBox
+    Friend WithEvents lblWidthUnit As System.Windows.Forms.Label
+    Friend WithEvents lblArea As System.Windows.Forms.Label
+    Friend WithEvents txtArea As System.Windows.Forms.TextBox
+    Friend WithEvents lblAreaUnit As System.Windows.Forms.Label
 
 End Class
